@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pergaminho — Arquivo Pessoal</title>
+  <meta name="description" content="Arquivo pessoal: arquivo de projetos, formação e experiências em desenvolvimento e ciência de dados." />
+
+  <link rel="icon" type="image/png" href="assets/icon.png"/>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Partículas de poeira -->
+  <div class="dust" aria-hidden="true"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="brand">
+        <span class="brand-mark">D</span>
+        <span class="brand-text">Diogo Zoboli</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Início</a>
+        <a href="#formacao">Formação</a>
+        <a href="#experiencias">Experiências</a>
+        <a href="#conquistas">Conquistas</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#certificados">Certificados</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="inicio" class="hero">
+      <div class="hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">— Portfólio Pessoal · Vol. I</p>
+          <h1 class="hero-title">
+            Diogo <span class="gold">Zoboli</span>
+          </h1>
+          <p class="hero-sub">Desenvolvedor e Cientista de Dados</p>
+          <p class="hero-desc">
+            Técnico em Ciência de Dados e estudante de Engenharia de Software, 
+            com experiência em análise de dados, ETL, BI e desenvolvimento. 
+            Medalhista nacional em competição de matemática e certificado por
+            Harvard aos 18 anos. Estudo Machine Learning pelo SENAI e 
+            busco crescer e futuramente me tornar Cientista de Dados.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="https://linkedin.com/in/zobolidiogo" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/zobolidiogo" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            <a class="btn btn-ghost" href="#projetos"><i class="bi bi-journal-bookmark"></i> Projetos</a>
+            <a class="btn btn-ghost" href="#contato"><i class="bi bi-envelope"></i> Contato</a>
+          </div>
+        </div>
+
+        <div class="hero-portrait reveal">
+          <div class="frame">
+            <img src="assets/retrato.jpg" alt="Retrato pessoal" />
+            <div class="frame-corner tl"></div>
+            <div class="frame-corner tr"></div>
+            <div class="frame-corner bl"></div>
+            <div class="frame-corner br"></div>
+          </div>
+          <p class="caption">— retrato do autor —</p>
+        </div>
+      </div>
+
+      <!-- Dossiê em estilo pergaminho -->
+      <div class="dossier reveal">
+        <div class="dossier-row"><span>Localização</span><b>Navegantes, SC • Brasil</b></div>
+        <div class="dossier-row"><span>Atuação</span><b>Analista de Dados</b></div>
+        <div class="dossier-row"><span>Stack principal</span><b>Python • SQL • Power BI</b></div>
+        <div class="dossier-row"><span>Status</span><b class="moss">Disponível para oportunidades</b></div>
+      </div>
+    </section>
+
+    <!-- ============ FORMAÇÃO ============ -->
+    <section id="formacao" class="section">
+      <h2 class="section-title">Formação Acadêmica</h2>
+      <div class="divider"></div>
+
+      <div class="timeline">
+        <div class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card card card-ghost">
+            <span class="t-date">02.2026 — 12.2029 | Em andamento</span>
+            <h3>Bacharelado em Engenharia de Software</h3>
+            <p>
+              <a href="https://www.linkedin.com/school/grupo-uninter/" target="_blank">UNINTER - Centro Universitário Internacional</a>
+            </p>
+          </div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card card card-gold">
+            <span class="t-date">02.2024 — 12.2025 | Concluído</span>
+            <h3>Técnico em Ciência de Dados</h3>
+            <p>
+              <a href="https://www.linkedin.com/company/cedup-timbo/" target="_blank">CEDUP Timbó - Centro de Educação Profissional</a>
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- ============ EXPERIÊNCIAS ============ -->
+    <section id="experiencias" class="section">
+      <h2 class="section-title">Experiências</h2>
+      <div class="divider"></div>
+
+      <div class="cards-grid">
+        <article class="doc-card reveal">
+          <header>
+            <h3>Analista de Suporte N1</h3>
+            <span>04.2026 — atual</span>
+          </header>
+          <p class="company">
+            <a href="https://www.linkedin.com/company/convertrcommerce/" target="_blank">Convertr Commerce</a></p>
+          <p>
+            Atuo no suporte técnico de uma plataforma SaaS de e-commerce, 
+            auxiliando clientes na integração com ERPs, resolução de problemas e operação 
+            do sistema. Desde as primeiras semanas me tornei referência técnica na 
+            equipe. 
+          </p>
+          <div class="tags">
+            <span>Comunicação</span><span>SaaS</span><span>ERPs</span><span>Dashboards</span>
+          </div>
+        </article>
+
+        <article class="doc-card reveal">
+          <header>
+            <h3>Analista de Produtos e E-commerce</h3>
+            <span>06.2025 — 09.2025</span>
+          </header>
+          <p class="company">
+            <a href="https://www.linkedin.com/company/doce-tom-oficial/" target="_blank">Doce Tom</a>
+          </p>
+          <p>
+            Reorganizei o catálogo de produtos, corrigi dados cadastrais e 
+            utilizei IA generativa para padronização visual dos anúncios. 
+            Os produtos atingiram taxa de conversão de até 85% acima da média da empresa.</p>
+          <div class="tags">
+            <span>Análise de Dados</span><span>Dashboards</span><span>IA Generativa</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CONQUISTAS ============ -->
+    <section id="conquistas" class="section">
+      <h2 class="section-title">Conquistas</h2>
+      <div class="divider"></div>
+
+      <div class="achievements">
+        <div class="medal reveal">
+          <i class="bi bi-trophy-fill"></i>
+          <h3>Medalha de Bronze e Menção Honrosa</h3>
+          <p>
+            Conquistei Medalha de Bronze Regional e Menção Honrosa Nacional 
+            na Mathématiques Sans Frontières 2024, sendo a única equipe de Timbó/SC 
+            a alcançar reconhecimento nacional. Atuei como líder de equipe, coordenando
+            estratégia, distribuindo tarefas e tomando decisões sob pressão.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HABILIDADES ============ -->
+    <section id="habilidades" class="section">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="divider"></div>
+
+      <div class="skills-grid">
+        <div class="skill-block reveal">
+          <h3><i class="bi bi-cpu"></i> Hard Skills</h3>
+          <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">SQL</span>
+            <span class="badge">Power BI</span>
+            <span class="badge">C</span>
+            <span class="badge">Flask</span>
+            <span class="badge">Business Intelligence</span>
+            <span class="badge">Machine Learning</span>
+            <span class="badge">ETL</span>
+            <span class="badge">SaaS</span>
+            <span class="badge">IA Generativa</span>
+            <span class="badge">DAX</span>
+            <span class="badge">Pandas</span>
+            <span class="badge">Power Query</span>
+            <span class="badge">APIs</span>
+            <span class="badge">ERPs</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3><i class="bi bi-people"></i> Soft Skills</h3>
+          <ul class="soft-list">
+            <li>Habilidades analíticas</li>
+            <li>Resolução de problemas</li>
+            <li>Liderança</li>
+            <li>Trabalho em equipe</li>
+            <li>Comunicação</li>
+          </ul>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3><i class="bi bi-translate"></i> Idiomas</h3>
+          <div class="lang">
+            <div><span>Português</span><div class="bar"><div style="width:100%"></div></div></div>
+            <div><span>Inglês</span><div class="bar"><div style="width:70%"></div></div></div>
+            <div><span>Espanhol</span><div class="bar"><div style="width:45%"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETOS ============ -->
+    <section id="projetos" class="section">
+      <h2 class="section-title">Projetos</h2>
+      <div class="divider"></div>
+
+      <div class="projects">
+        <article class="project reveal">
+          <div class="project-img"><img src="assets/project1.jpg" alt="Projeto 1" /></div>
+          <div class="project-body">
+            <h3>Análise de Séries Temporais</h3>
+            <p>Pipeline completo para previsão de demanda usando ARIMA, Prophet e LSTM.</p>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>TensorFlow</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-ghost"><i class="bi bi-github"></i> GitHub</a>
+              <a href="#" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-img"><img src="assets/project2.jpg" alt="Projeto 2" /></div>
+          <div class="project-body">
+            <h3>Mapa Interativo de Dados Públicos</h3>
+            <p>Visualização geoespacial de indicadores socioeconômicos em escala municipal.</p>
+            <div class="tags"><span>JavaScript</span><span>D3.js</span><span>Leaflet</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-ghost"><i class="bi bi-github"></i> GitHub</a>
+              <a href="#" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-img"><img src="assets/project3.jpg" alt="Projeto 3" /></div>
+          <div class="project-body">
+            <h3>Classificador de Imagens com CNN</h3>
+            <p>Modelo de visão computacional treinado para reconhecer espécies botânicas.</p>
+            <div class="tags"><span>PyTorch</span><span>OpenCV</span><span>NumPy</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-ghost"><i class="bi bi-github"></i> GitHub</a>
+              <a href="#" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-img"><img src="assets/project4.jpg" alt="Projeto 4" /></div>
+          <div class="project-body">
+            <h3>Dashboard Financeiro Pessoal</h3>
+            <p>Aplicação web para controle de gastos com gráficos interativos e metas.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-ghost"><i class="bi bi-github"></i> GitHub</a>
+              <a href="#" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICADOS ============ -->
+    <section id="certificados" class="section">
+      <h2 class="section-title">Certificados</h2>
+      <div class="divider"></div>
+
+      <div class="certs">
+        <div class="cert reveal" style="--r:-3deg">
+          <i class="bi bi-patch-check-fill"></i>
+          <h4>Machine Learning Specialization</h4>
+          <p>Coursera · Stanford</p>
+        </div>
+        <div class="cert reveal" style="--r:2deg">
+          <i class="bi bi-patch-check-fill"></i>
+          <h4>Data Science Professional</h4>
+          <p>IBM</p>
+        </div>
+        <div class="cert reveal" style="--r:-1deg">
+          <i class="bi bi-patch-check-fill"></i>
+          <h4>React — Avançado</h4>
+          <p>Rocketseat</p>
+        </div>
+        <div class="cert reveal" style="--r:3deg">
+          <i class="bi bi-patch-check-fill"></i>
+          <h4>SQL para Análise</h4>
+          <p>DataCamp</p>
+        </div>
+        <div class="cert reveal" style="--r:-2deg">
+          <i class="bi bi-patch-check-fill"></i>
+          <h4>Deep Learning</h4>
+          <p>DeepLearning.AI</p>
+        </div>
+        <div class="cert reveal" style="--r:1deg">
+          <i class="bi bi-patch-check-fill"></i>
+          <h4>Cloud Practitioner</h4>
+          <p>AWS</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section id="contato" class="section">
+      <h2 class="section-title">Contato</h2>
+      <div class="divider"></div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:seuemail@exemplo.com"><i class="bi bi-envelope-fill"></i> seuemail@exemplo.com</a>
+          <a href="https://github.com" target="_blank"><i class="bi bi-github"></i> github.com/seu-usuario</a>
+          <a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i> linkedin.com/in/seu-perfil</a>
+          <a href="https://wa.me/5500000000000" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+        </div>
+
+        <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+          <label>Nome <input type="text" required placeholder="Como devo te chamar?" /></label>
+          <label>Email <input type="email" required placeholder="seu@email.com" /></label>
+          <label>Mensagem <textarea rows="5" required placeholder="Conte-me sobre seu projeto..."></textarea></label>
+          <button type="submit" class="btn btn-gold"><i class="bi bi-send"></i> Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Archivum — todos os manuscritos reservados.</p>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Voltar ao topo">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
