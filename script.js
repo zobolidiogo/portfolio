@@ -47,10 +47,3 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
-
-// 6) Formulário de contato (apenas demonstração)
-function handleSubmit(event) {
-  event.preventDefault();
-  alert("Mensagem registrada no arquivo! (Conecte este formulário ao seu serviço favorito de e-mail)");
-  event.target.reset();
-}
