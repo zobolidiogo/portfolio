@@ -6,6 +6,8 @@
 
 Portfólio pessoal desenvolvido com foco em identidade visual vintage e narrativa visual, apresentando minha trajetória, experiências, projetos e formação na área de tecnologia e dados.
 
+Link: [zobolidiogo.github.io/portfolio](https://zobolidiogo.github.io/portfolio/)
+
 ---
 
 ## Sobre o Projeto
