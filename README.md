@@ -79,7 +79,3 @@ GitHub: https://github.com/zobolidiogo
 ---
 
 ⭐ Caso tenha gostado do projeto, considere deixar uma estrela no repositório.
-
----
-
-⭐ Caso tenha gostado do projeto, considere deixar uma estrela no repositório.
