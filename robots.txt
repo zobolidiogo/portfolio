@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pessoal.bydiogo.com.br/sitemap.xml
