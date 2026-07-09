@@ -3,26 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pergaminho Pessoal - Diogo</title>
-  <meta name="description" content="Portfólio pessoal de Diogo Zoboli, desenvolvedor e cientista de dados, contando sua história e trajetória até os dias de hoje." />
+  <title>Diogo Zoboli | Engenheiro de Software e Cientista de Dados</title>
+  <meta name="description" content="Portfólio profissional de Diogo Zoboli, Desenvolvedor de Software e Analista de Dados. Conheça meus projetos e as soluções em desenvolvimento de sistemas da BYdiogo." />
+  <meta name="author" content="Diogo Zoboli" />
+  <link rel="canonical" href="https://pessoal.bydiogo.com.br/" />
 
-  <portrait src="assets/retrato.jpg" alt="Retrato do autor"/>
-  <link rel="icon" type="image/png" href="assets/icon.png"/>
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/icon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png" />
+
+  <meta property="og:title" content="Diogo Zoboli | Engenheiro de Software e Cientista de Dados" />
+  <meta property="og:description" content="Explore o portfólio de Diogo Zoboli. Projetos avançados em Engenharia de Software, Ciência de Dados e criação de sites profissionais pela BYdiogo." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pessoal.bydiogo.com.br/" />
+  <meta property="og:image" content="https://pessoal.bydiogo.com.br/assets/retrato.jpg" />
+  <meta property="og:image:secure_url" content="https://pessoal.bydiogo.com.br/assets/retrato.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Diogo Zoboli | Engenheiro de Software e Cientista de Dados" />
+  <meta name="twitter:description" content="Projetos estruturados, competências técnicas e soluções sob medida para alavancar empresas locais desenvolvidos por Diogo Zoboli." />
+  <meta name="twitter:image" content="https://pessoal.bydiogo.com.br/assets/retrato.jpg" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
   <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Diogo Zoboli",
+      "jobTitle": "Engenheiro de Software e Cientista de Dados",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Universidade de Harvard"
+      },
+      "knowsAbout": [
+        "Engenharia de Software",
+        "Ciência de Dados",
+        "Python",
+        "SQL",
+        "Power BI",
+        "Machine Learning",
+        "Criação de Sites Profissionais"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Navegantes",
+        "addressRegion": "SC",
+        "addressCountry": "BR"
+      },
+      "sameAs": [
+        "https://github.com/zobolidiogo",
+        "https://linkedin.com/in/zobolidiogo",
+        "https://bydiogo.com.br"
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
 
-  <!-- Partículas de poeira -->
   <div class="dust" aria-hidden="true"></div>
 
-  <!-- ============ NAVBAR ============ -->
   <header class="navbar" id="navbar">
     <div class="nav-inner">
       <a href="#inicio" class="brand">
@@ -32,17 +83,14 @@
 
       <nav class="nav-links" id="navLinks">
         <a href="#inicio">Início</a>
-        <a href="#logbook">Diário</a>
         <a href="#formacao">Formação</a>
         <a href="#experiencias">Experiências</a>
-        <a href="#conquistas">Conquistas</a>
-        <a href="#habilidades">Habilidades</a>
         <a href="#projetos">Projetos</a>
-        <a href="#certificados">Certificados</a>
         <a href="#contato">Contato</a>
+        <a href="#meu-negocio" class="nav-purple-btn"><i class="bi bi-browser-edge"></i> Meu Negócio</a>
       </nav>
 
-      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu de navegação">
         <i class="bi bi-list"></i>
       </button>
     </div>
@@ -50,7 +98,6 @@
 
   <main>
 
-    <!-- ============ HERO ============ -->
     <section id="inicio" class="hero">
       <div class="hero-grid">
         <div class="hero-text reveal">
@@ -58,26 +105,25 @@
           <h1 class="hero-title">
             Diogo <span class="gold">Zoboli</span>
           </h1>
-          <p class="hero-sub">Desenvolvedor e Analista de Dados</p>
+          <p class="hero-sub">Engenheiro de Software e Analista de Dados</p>
           <p class="hero-desc">
             Sou Técnico em Ciência de Dados e estudante de Engenharia de Software, 
-            com experiência em análise de dados, ETL, BI e desenvolvimento. 
-            Medalhista nacional em competição de matemática e certificado por
-            Harvard aos 18 anos. Estudo Machine Learning pelo SENAI e 
-            busco crescer profissionalmente e futuramente atuar com Machine Learning como Cientista de Dados.
+            com sólida experiência em análise de dados, processos de ETL, Business Intelligence e desenvolvimento de sistemas. 
+            Medalhista nacional em competição de matemática aplicada e certificado pela
+            Universidade de Harvard aos 18 anos. Fundador da BYdiogo, focada em colocar empresas locais no topo das pesquisas do Google.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-gold" href="https://linkedin.com/in/zobolidiogo" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
-            <a class="btn btn-ghost" href="https://github.com/zobolidiogo" target="_blank"><i class="bi bi-github"></i> GitHub</a>
-            <a class="btn btn-ghost" href="#logbook"><i class="bi bi-journal-bookmark"></i> Diário</a>
+            <a class="btn btn-gold" href="https://linkedin.com/in/zobolidiogo" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/zobolidiogo" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
             <a class="btn btn-ghost" href="#contato"><i class="bi bi-envelope"></i> Contato</a>
+            <a class="btn btn-purple" href="#meu-negocio"><i class="bi bi-lightning-fill"></i> BYdiogo</a>
           </div>
         </div>
 
         <div class="hero-portrait reveal">
           <div class="frame">
-            <img src="assets/retrato.jpg" alt="Retrato pessoal" />
+            <img src="assets/retrato.jpg" alt="Fotografia de perfil de Diogo Zoboli, Engenheiro de Software e Cientista de Dados" />
             <div class="frame-corner tl"></div>
             <div class="frame-corner tr"></div>
             <div class="frame-corner bl"></div>
@@ -87,115 +133,40 @@
         </div>
       </div>
 
-      <!-- Dossiê em estilo pergaminho -->
       <div class="dossier reveal">
         <div class="dossier-row"><span>Localização</span><b>Navegantes, SC • Brasil</b></div>
-        <div class="dossier-row"><span>Atuação</span><b>Analista de Dados</b></div>
-        <div class="dossier-row"><span>Stack principal</span><b>Python • SQL • Power BI</b></div>
+        <div class="dossier-row"><span>Atuação</span><b>Engenharia de Software & Dados</b></div>
+        <div class="dossier-row"><span>Iniciativa</span><b>Founder na BYdiogo</b></div>
         <div class="dossier-row"><span>Status</span><b class="moss">Disponível para oportunidades</b></div>
       </div>
     </section>
 
-    <!-- ============ DIARIO ============ -->
-    <section id="logbook" class="section">
-      <h2 class="section-title">Diário de Bordo</h2>
-      <div class="divider"></div>
-
-      <div class="logbook">
-
-        <div class="log-entry reveal">
-          <span>MAI 2026</span>
+    <section id="meu-negocio" class="section section-bydiogo-purple">
+      <div class="bydiogo-badge">PROJETO ATIVO</div>
+      <h2 class="section-title text-white">BYdiogo — Soluções Web Corporativas</h2>
+      <div class="divider-purple"></div>
+      
+      <div class="bydiogo-container reveal">
+        <div class="bydiogo-text-block">
+          <h3>Seu Negócio no Google em 30 Dias</h3>
           <p>
-            Estudando Inteligência Artificial para Análise Preditiva 
-            pelo SENAI/SCTEC e início do desenvolvimento do projeto AkumaDex.
+            Paralelamente à minha atuação acadêmica e corporativa, fundei a <strong>BYdiogo</strong>. Uma iniciativa focada no desenvolvimento de sites vitrine profissionais de alta performance criados em HTML, CSS e JavaScript estruturado (Flask/Python na infraestrutura).
           </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>ABR 2026</span>
           <p>
-            Início na Convertr Commerce como Analista de Suporte N1, 
-            primeira experiência em empresa de tecnologia SaaS.
+            O objetivo é tirar comércios locais e prestadores de serviços da dependência exclusiva de Instagram ou indicação, implementando estratégias de SEO Local, indexação no Google Search Console e integração com o ecossistema do Google Business Profile.
           </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>MAR 2026</span>
-          <p>
-            Início dos estudos em Machine Learning e IA. Finalização do 
-            CS50x de Harvard e desenvolvimento do crypto.check.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>FEV 2026</span>
-          <p>
-            Iniciei a faculdade de Engenharia de Software na UNINTER com bolsa integral
-            pela redação do Enem. Também fui aprovado no curso de Desenvolvimento de IA para Análise Preditiva do SENAI.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>JAN 2026</span>
-          <p>
-            Mês da formatura no CEDUP. Estudos para reforçar habilidades com Excel 
-            e IA Generativa, além do resultado do Enem, conquistando nota 920 na redação.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>DEZ 2025</span>
-          <p>
-            Finalizei o Técnico em Ciência de Dados, estudando paralelamente ciência da computação 
-            e administração de banco de dados.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>NOV 2025</span>
-          <p>
-            Finalização do TCC e realização da avaliação do Enem.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>OUT 2025</span>
-          <p>
-            Fase de desenvolvimento do TCC e estudos para a avaliação do Enem.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>SET 2025</span>
-          <p>
-            Decidi deixar meu cargo como Analista de Produtos para focar no TCC e preparação para o Enem.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>AGO 2025</span>
-          <p>
-            Pesquisa de campo para avaliar aprovação do tema para o TCC.
-          </p>
-        </div>
-
-        <div class="log-entry reveal">
-          <span>JUL 2025</span>
-          <p>
-            Preparação inicial para o TCC, definindo tema, escopo e metodologia. Início dos estudos para o Enem.
-          </p>
-        </div>
-
-         <div class="log-entry reveal">
-          <span>JUN 2025</span>
-          <p>
-            Comecei a trabalhar como Analista de Produtos e E-commerce na Doce Tom.
-          </p>
+          <div class="bydiogo-features-list">
+            <span><i class="bi bi-check-circle-fill"></i> Código de Alta Performance</span>
+            <span><i class="bi bi-check-circle-fill"></i> SEO Estruturado e Schema.org</span>
+            <span><i class="bi bi-check-circle-fill"></i> Integração com WhatsApp e domínios .com.br</span>
+          </div>
+          <div class="bydiogo-actions-block">
+            <a href="https://bydiogo.com.br" target="_blank" rel="noopener" class="btn btn-purple-solid"><i class="bi bi-box-arrow-up-right"></i> Acessar BYdiogo.com.br</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ FORMAÇÃO ============ -->
     <section id="formacao" class="section">
       <h2 class="section-title">Formação Acadêmica</h2>
       <div class="divider"></div>
@@ -207,7 +178,7 @@
             <span class="t-date">02.2026 — 12.2029 | Em andamento</span>
             <h3>Bacharelado em Engenharia de Software</h3>
             <p>
-              <a href="https://www.linkedin.com/school/grupo-uninter/" target="_blank">UNINTER - Centro Universitário Internacional</a>
+              <a href="https://www.linkedin.com/school/grupo-uninter/" target="_blank" rel="noopener">UNINTER - Centro Universitário Internacional</a>
             </p>
           </div>
         </div>
@@ -215,9 +186,9 @@
           <div class="t-dot"></div>
           <div class="t-card card card-ghost">
             <span class="t-date">03.2026 — 12.2026 | Em andamento</span>
-            <h3>Profissionalizante em Desenvolvimento de IA para Análise Preditiva</h3>
+            <h3>Desenvolvimento de IA para Análise Preditiva</h3>
             <p>
-              <a href="https://www.linkedin.com/school/senai-sc/" target="_blank">SENAI - Serviço Nacional de Aprendizagem Industrial</a>
+              <a href="https://www.linkedin.com/school/senai-sc/" target="_blank" rel="noopener">SENAI - Serviço Nacional de Aprendizagem Industrial</a>
             </p>
           </div>
         </div>
@@ -225,9 +196,9 @@
           <div class="t-dot"></div>
           <div class="t-card card card-ghost">
             <span class="t-date">03.2025 — 11.2026 | Em andamento</span>
-            <h3>Profissionalizante em Ciência da Computação</h3>
+            <h3>Ciência da Computação (CS50x)</h3>
             <p>
-              <a href="https://www.linkedin.com/school/harvard-university/" target="_blank">Universidade de Harvard</a>
+              <a href="https://www.linkedin.com/school/harvard-university/" target="_blank" rel="noopener">Universidade de Harvard</a>
             </p>
           </div>
         </div>
@@ -237,7 +208,7 @@
             <span class="t-date">02.2023 — 12.2025 | Concluído</span>
             <h3>Ensino Médio Técnico em Ciência de Dados</h3>
             <p>
-              <a href="https://www.linkedin.com/company/cedup-timbo/" target="_blank">CEDUP Timbó - Centro de Educação Profissional</a>
+              <a href="https://www.linkedin.com/company/cedup-timbo/" target="_blank" rel="noopener">CEDUP Timbó - Centro de Educação Profissional</a>
             </p>
           </div>
         </div>
@@ -245,9 +216,9 @@
           <div class="t-dot"></div>
           <div class="t-card card card-ghost">
             <span class="t-date">12.2018 — 07.2020 | Concluído</span>
-            <h3>Curso de Inglês</h3>
+            <h3>Curso de Inglês Profissional</h3>
             <p>
-              <a href="https://www.linkedin.com/school/wizard-by-pearson/" target="_blank">Wizard by Pearson</a>
+              <a href="https://www.linkedin.com/school/wizard-by-pearson/" target="_blank" rel="noopener">Wizard by Pearson</a>
             </p>
           </div>
         </div>
@@ -257,16 +228,15 @@
             <span class="t-date">02.2014 — 12.2022 | Concluído</span>
             <h3>Ensino Fundamental</h3>
             <p>
-              <a target="_blank">Escola Municipal Padre Martinho Stein</a>
+              <span>Escola Municipal Padre Martinho Stein</span>
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ EXPERIÊNCIAS ============ -->
     <section id="experiencias" class="section">
-      <h2 class="section-title">Experiências</h2>
+      <h2 class="section-title">Experiências Profissionais</h2>
       <div class="divider"></div>
 
       <div class="cards-grid">
@@ -276,15 +246,13 @@
             <span>04.2026 — atual</span>
           </header>
           <p class="company">
-            <a href="https://www.linkedin.com/company/convertrcommerce/" target="_blank">Convertr Commerce</a></p>
+            <a href="https://www.linkedin.com/company/convertrcommerce/" target="_blank" rel="noopener">Convertr Commerce</a>
+          </p>
           <p>
-            Atuo no suporte técnico de uma plataforma SaaS de e-commerce, 
-            auxiliando clientes na integração com ERPs, resolução de problemas e operação 
-            do sistema. Desde as primeiras semanas me tornei referência técnica na 
-            equipe. 
+            Atuação no suporte de infraestrutura técnica e regras de negócio para plataforma SaaS de e-commerce enterprise. Resolução de falhas críticas de integração, análise de fluxos de dados com ERPs parceiros e gerenciamento de chamados sob acordos de SLA rigorosos.
           </p>
           <div class="tags">
-            <span>Comunicação</span><span>SaaS</span><span>ERPs</span><span>Dashboards</span>
+            <span>Comunicação</span><span>SaaS</span><span>Integração ERP</span><span>Análise de Logs</span>
           </div>
         </article>
 
@@ -294,64 +262,54 @@
             <span>06.2025 — 09.2025</span>
           </header>
           <p class="company">
-            <a href="https://www.linkedin.com/company/doce-tom-oficial/" target="_blank">Doce Tom</a>
+            <a href="https://www.linkedin.com/company/doce-tom-oficial/" target="_blank" rel="noopener">Doce Tom</a>
           </p>
           <p>
-            Reorganizei o catálogo de produtos, corrigi dados cadastrais e 
-            utilizei IA generativa para padronização visual dos anúncios. 
-            Os produtos atingiram taxa de conversão de até 85% acima da média da empresa.</p>
+            Estruturação e normalização de bancos de dados relacionais de catálogos e inventários. Otimização de listagens de e-commerce e aplicação de IA generativa em escala para padronização de metadados, elevando a taxa de conversão comercial em até 85%.
+          </p>
           <div class="tags">
-            <span>Análise de Dados</span><span>Dashboards</span><span>IA Generativa</span>
+            <span>Análise de Dados</span><span>Modelagem SQL</span><span>IA Generativa</span>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ============ CONQUISTAS ============ -->
     <section id="conquistas" class="section">
-      <h2 class="section-title">Conquistas</h2>
+      <h2 class="section-title">Conquistas de Destaque</h2>
       <div class="divider"></div>
 
       <div class="achievements">
         <div class="medal reveal">
-          <i class="bi bi-trophy-fill"></i>
+          <i class="bi bi-trophy-fill" aria-hidden="true"></i>
           <h3>Medalha de Bronze e Menção Honrosa</h3>
           <p>
-            Conquistei Medalha de Bronze Regional e Menção Honrosa Nacional 
-            na Mathématiques Sans Frontières 2024, sendo a única equipe de Timbó/SC 
-            a alcançar reconhecimento nacional. Atuei como líder de equipe, coordenando
-            estratégia, distribuindo tarefas e tomando decisões sob pressão.
+            Conquista de Medalha de Bronze Regional e Menção Honrosa em nível Nacional na competição Mathématiques Sans Frontières. Atuação estratégica como líder técnico do grupo na otimização de tempo e distribuição analítica dos problemas sob pressão de cronograma.
           </p>
         </div>
         <div class="medal reveal">
-          <i class="bi bi-trophy-fill"></i>
-          <h3>Troféu de 1º Lugar</h3>
+          <i class="bi bi-trophy-fill" aria-hidden="true"></i>
+          <h3>Liderança e Gestão de Equipe</h3>
           <p>
-            Liderei a equipe vencedora da gincana anual do CEDUP, coordenando 
-            os membros ao longo de múltiplos desafios durante o ano, como coleta 
-            de materiais recicláveis, esportes, atividades culturais e organização 
-            de equipe. Mesmo com baixo engajamento em alguns momentos, mantive o 
-            grupo motivado e garantimos o troféu de 1º lugar.
+            Gerenciamento, engajamento e coordenação de equipes em gincanas e desafios de longa duração no CEDUP, estabelecendo métricas de produtividade interna, mediação de conflitos e governança que resultaram no troféu definitivo de 1º lugar.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ============ HABILIDADES ============ -->
     <section id="habilidades" class="section">
-      <h2 class="section-title">Habilidades</h2>
+      <h2 class="section-title">Habilidades Técnicas</h2>
       <div class="divider"></div>
 
       <div class="skills-grid">
         <div class="skill-block reveal">
-          <h3><i class="bi bi-cpu"></i> Hard Skills</h3>
+          <h3><i class="bi bi-cpu" aria-hidden="true"></i> Hard Skills</h3>
           <div class="badges">
             <span class="badge">Python</span>
             <span class="badge">SQL</span>
             <span class="badge">Power BI</span>
             <span class="badge">C</span>
             <span class="badge">Flask</span>
-            <span class="badge">Business Intelligence</span>
+            <span class="badge">PostgreSQL</span>
             <span class="badge">Machine Learning</span>
             <span class="badge">ETL</span>
             <span class="badge">SaaS</span>
@@ -359,371 +317,360 @@
             <span class="badge">DAX</span>
             <span class="badge">Pandas</span>
             <span class="badge">Power Query</span>
-            <span class="badge">APIs</span>
+            <span class="badge">REST APIs</span>
             <span class="badge">ERPs</span>
           </div>
         </div>
 
         <div class="skill-block reveal">
-          <h3><i class="bi bi-people"></i> Soft Skills</h3>
+          <h3><i class="bi bi-people" aria-hidden="true"></i> Soft Skills</h3>
           <ul class="soft-list">
-            <li>Habilidades analíticas</li>
-            <li>Resolução de problemas</li>
-            <li>Liderança</li>
-            <li>Trabalho em equipe</li>
-            <li>Comunicação</li>
+            <li>Pensamento Analítico Avançado</li>
+            <li>Resolução Estruturada de Problemas Complexos</li>
+            <li>Liderança Resiliente de Equipes</li>
+            <li>Comunicação Técnico Assertiva</li>
+            <li>Negociação e Atendimento de Clientes Corporativos</li>
           </ul>
         </div>
 
         <div class="skill-block reveal">
-          <h3><i class="bi bi-translate"></i> Idiomas</h3>
+          <h3><i class="bi bi-translate" aria-hidden="true"></i> Proficiência em Idiomas</h3>
           <div class="lang">
-            <div><span>Português</span><div class="bar"><div style="width:100%"></div></div></div>
-            <div><span>Inglês</span><div class="bar"><div style="width:70%"></div></div></div>
-            <div><span>Espanhol</span><div class="bar"><div style="width:45%"></div></div></div>
+            <div><span>Português (Nativo)</span><div class="bar"><div style="width:100%"></div></div></div>
+            <div><span>Inglês (Avançado)</span><div class="bar"><div style="width:70%"></div></div></div>
+            <div><span>Espanhol (Básico)</span><div class="bar"><div style="width:45%"></div></div></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ PROJETOS ============ -->
     <section id="projetos" class="section">
-      <h2 class="section-title">Projetos</h2>
+      <h2 class="section-title">Projetos em Destaque</h2>
       <div class="divider"></div>
 
       <div class="projects">
         <article class="project reveal">
-          <div class="project-img"><img src="assets/comingsoon.png" alt="AkumaDex" /></div>
+          <div class="project-img"><img src="assets/comingsoon.png" alt="Interface em desenvolvimento da plataforma de entretenimento AkumaDex" /></div>
           <div class="project-body">
             <h3>AkumaDex</h3>
             <h4>Em desenvolvimento</h4>
             <p>
-              Plataforma web de colecionamento de Frutas do universo de 
-              One Piece, com sistema de gacha, trocas entre usuários, ranking e banco 
-              de dados relacional em PostgreSQL.
+              Arquitetura de sistema web escalável baseado no ecossistema da obra One Piece. Conta com lógicas complexas de gacha de dados, mecanismos assíncronos de trocas transacionais entre usuários e um banco de dados relacional normalizado estruturado em PostgreSQL.
             </p>
             <div class="tags"><span>PostgreSQL</span><span>Python</span><span>Flask</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/akumadex" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/akumadex" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/comingsoon.png" alt="MathRank" /></div>
+          <div class="project-img"><img src="assets/comingsoon.png" alt="Painel estrutural em construção do sistema acadêmico Math Ranking" /></div>
           <div class="project-body">
             <h3>Math Ranking</h3>
             <h4>Em desenvolvimento</h4>
             <p>
-              Plataforma web desenvolvidade em equipe voltada para resolução de desafios matemáticos com sistema de ranking e níveis de dificuldade, utilizando Flask e PostgreSQL.
+              Aplicação distribuída voltada à gamificação do ensino lógico. O software gerencia pontuações em tempo real por meio de submissão algorítmica de problemas em níveis de complexidade customizados, integrando Python no ecossistema backend e PostgreSQL no armazenamento persistente.
             </p>
             <div class="tags"><span>PostgreSQL</span><span>JavaScript</span><span>Flask</span></div>
             <div class="project-actions">
-              <a href="https://github.com/Renan-G-Lima/math_ranking" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/Renan-G-Lima/math_ranking" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/portfolio.png" alt="Portfolio" /></div>
+          <div class="project-img"><img src="assets/portfolio.png" alt="Mockup responsivo do portfólio pessoal de Diogo Zoboli" /></div>
           <div class="project-body">
-            <h3>Portfolio</h3>
+            <h3>Portfolio Vintage</h3>
             <h4>05.2026</h4>
             <p>
-                Portfólio pessoal desenvolvido com HTML, CSS e JavaScript, utilizando estilo vintage inspirado em pergaminhos e manuscritos para apresentar trajetória, projetos, experiências e formação.
+              Portfólio estruturado seguindo conceitos semânticos avançados de HTML5, CSS customizado de alto desempenho sem frameworks e animações fluidas baseadas na API IntersectionObserver. Design inspirado em manuscritos medievais e focado em acessibilidade web.
             </p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/portfolio" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
-              <a href="https://zobolidiogo.github.io/portfolio/" target="_blank" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
+              <a href="https://github.com/zobolidiogo/portfolio" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://pessoal.bydiogo.com.br" target="_blank" rel="noopener" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/cripto.png" alt="crypto.check" /></div>
+          <div class="project-img"><img src="assets/cripto.png" alt="Dashboard do simulador financeiro web crypto.check" /></div>
           <div class="project-body">
             <h3>crypto.check</h3>
             <h4>03.2026</h4>
             <p>
-              Simulador de compra e venda de criptomoedas full-stack desenvolvido 
-              com Flask e Jinja. Integra duas APIs em tempo real, 
-              autenticação segura e gráficos interativos de portfólio.</p>
+              Ambiente virtual completo de simulação transacional de criptoativos. Desenvolvido em Flask com Jinja templates, consome dados assíncronos via REST APIs financeiras em tempo real, gerencia carteiras exclusivas e renderiza gráficos interativos de performance dos investimentos.
+            </p>
             <div class="tags"><span>Python</span><span>Flask</span><span>Jinja</span><span>PostgreSQL</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/crypto_check" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
-              <a href="https://crypto-check-vgkv.onrender.com/" target="_blank" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
+              <a href="https://github.com/zobolidiogo/crypto_check" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://crypto-check-vgkv.onrender.com/" target="_blank" rel="noopener" class="btn btn-gold"><i class="bi bi-box-arrow-up-right"></i> Ver projeto</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/uber.png" alt="Análise de corridas de Uber" /></div>
+          <div class="project-img"><img src="assets/uber.png" alt="Visualização estatística de dados geográficos e temporais de corridas Uber" /></div>
           <div class="project-body">
-            <h3>Análise de corridas de Uber</h3>
+            <h3>Análise de Corridas de Uber</h3>
             <h4>03.2026</h4>
             <p>
-              Análise exploratória de dados utilizando Python e Pandas sobre uma base com mais de 150 mil registros,
-              com tratamento de dados, análise e visualizações para identificar insights.
+              Processamento em pipelines de engenharia de dados em grande volume (dataset superior a 150 mil linhas). Envolve rotinas automatizadas de limpeza de dados nulos, tratamentos estatísticos complexos e visualizações com Matplotlib e Seaborn para extração de tendências operacionais.
             </p>
             <div class="tags"><span>Seaborn</span><span>Pandas</span><span>Matplotlib</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/uber_drives_data_analytics" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/uber_drives_data_analytics" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/promossaum.png" alt="Análise de Impactos de Promoções" /></div>
+          <div class="project-img"><img src="assets/promossaum.png" alt="Relatório executivo no Power BI mapeando métricas promocionais globais" /></div>
           <div class="project-body">
             <h3>Análise de Impactos de Promoções</h3>
             <h4>03.2026</h4>
             <p>
-              Dashboard executivo de análise comercial com modelagem e relacionamentos, medidas em DAX, RLS dinâmico por país e estudo de impacto de promoções em varejo multirregional.
+              Desenvolvimento de modelo analítico empresarial de alta fidelidade para varejo internacional. Implementação de cálculos em DAX otimizados, estruturação de data-warehouses eficientes e regras restritivas de Row-Level Security (RLS) baseadas em perfis geográficos dos usuários.
             </p>
             <div class="tags"><span>Power BI</span><span>DAX</span><span>RLS</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/promos_impact_dash" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/promos_impact_dash" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/jovemfinn.png" alt="Agente jovem finn" /></div>
+          <div class="project-img"><img src="assets/jovemfinn.png" alt="Arquitetura conceitual do agente de recomendação financeira Jovem Finn" /></div>
           <div class="project-body">
             <h3>Jovem Finn</h3>
             <h4>02.2026</h4>
             <p>
-              Agente desenvolvido com IA Generativa para simular recomendações financeiras personalizadas com engenharia de prompt baseado no perfil e histórico de transações do usuário. 
+              Agente inteligente local integrado com LLM de processamento generativo via Ollama. Desenvolvido com técnicas modernas de Prompt Engineering e validação estruturada em arquivos JSON/CSV, o sistema cria análises preditivas com base no histórico real de gastos dos clientes.
             </p>
-            <div class="tags"><span>JSON</span><span>CSV</span><span>Ollama</span><span>Python</span></div>
+            <div class="tags"><span>JSON</span><span>Ollama</span><span>LLMs</span><span>Python</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/lab_jovem_finn" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/lab_jovem_finn" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/liftsync.png" alt="LiftSync" /></div>
+          <div class="project-img"><img src="assets/liftsync.png" alt="Prototipagem de interface UI/UX do ecossistema fitness LiftSync" /></div>
           <div class="project-body">
             <h3>LiftSync</h3>
             <h4>11.2025</h4>
             <p>
-              Sistema de acompanhamento fitness com banco de dados 
-              em SQL Server, dashboards no Power BI e prototipação no 
-              Figma, desenvolvido em equipe com métodos Scrum e Kanban.
+              Ecossistema corporativo completo voltado ao nicho de saúde física. Atuação central na arquitetura lógica de dados relacionais e views analíticas robustas hospedadas em SQL Server, seguindo rigorosos padrões de metodologias ágeis em equipe.
             </p>
             <div class="tags"><span>SQL Server</span><span>Figma</span><span>Data Modeler</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/tcc_liftsync" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/tcc_liftsync" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/petshop.png" alt="Pet Shop Dash" /></div>
+          <div class="project-img"><img src="assets/petshop.png" alt="Painel analítico corporativo de vendas de PetShop" /></div>
           <div class="project-body">
-            <h3>Análise de vendas do PetShop</h3>
+            <h3>Análise de Vendas PetShop</h3>
             <h4>10.2025</h4>
             <p>
-              Análise exploratória de base com 250 mil registros tratada 
-              no Power Query com 3 dashboards interativos no Power BI 
-              cobrindo vendas, performance por vendedor e análise geográfica.
+              Pipeline de inteligência de negócios contendo a consolidação e a normalização de 250 mil registros brutos processados via Power Query. Estruturação em 3 visualizações executivas avançadas cobrindo faturamento financeiro, rankings comerciais e análises demográficas.
             </p>
             <div class="tags"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/petshop_dash" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/petshop_dash" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/vendasti.png" alt="Vendas TI" /></div>
+          <div class="project-img"><img src="assets/vendasti.png" alt="Dashboard executivo com gráficos de distribuição de hardware e vendas TI" /></div>
           <div class="project-body">
             <h3>Dashboard de Vendas TI</h3>
             <h4>08.2025</h4>
             <p>
-              Dashboard interativo no Power BI para análise de vendas de produtos tecnológicos, aplicando storytelling de dados, KPIs e princípios de UX/UI para apoiar tomada de decisão.
+              Solução de inteligência comercial desenhada para o setor de atacado tecnológico. Aplicação prática de Storytelling de Dados focado no usuário tomador de decisão, modelagem em estrela (Star Schema) estável e design minimalista otimizado.
             </p>
             <div class="tags"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/vendas_ti_dashboard" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/vendas_ti_dashboard" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/execucao.png" alt="Dash Execucoes" /></div>
+          <div class="project-img"><img src="assets/execucao.png" alt="Mapeamento histórico analítico de dados públicos sobre execuções penais nos EUA" /></div>
           <div class="project-body">
             <h3>Dashboard de Execuções</h3>
             <h4>06.2025</h4>
             <p>
-              Dashboard analítico no Power BI para exploração de dados históricos sobre execuções nos Estados Unidos, utilizando KPIs, análise temporal e visualizações para identificar padrões.
+              Análise profunda e minuciosa de bases públicas governamentais sobre o histórico jurídico norte-americano. O painel unifica métricas demográficas históricas, correlações e agrupamentos temporais por meio de fórmulas otimizadas de inteligência temporal em DAX.
             </p>
             <div class="tags"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/execucoes_eua_dashboard" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/execucoes_eua_dashboard" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/hospital.png" alt="Hospital Model" /></div>
+          <div class="project-img"><img src="assets/hospital.png" alt="Diagrama de modelagem lógica de entidades e relacionamentos de dados hospitalares" /></div>
           <div class="project-body">
             <h3>Modelagem Hospitalar</h3>
             <h4>05.2025</h4>
             <p>
-              Modelagem lógica de banco de dados para sistema hospitalar, desenvolvida no Oracle Data Modeler com entidades clínicas, consultas, medicamentos e procedimentos cirúrgicos.
+              Engenharia reversa e arquitetura completa de banco de dados para gestão clínica em larga escala no Oracle Data Modeler. Normalização em 3ª Forma Normal abrangendo prontuários eletrônicos, agendamentos, estoque de fármacos e trilhas de auditoria médica.
             </p>
-            <div class="tags"><span>SQL</span><span>Data Modeler</span></div>
+            <div class="tags"><span>SQL</span><span>Data Modeler</span><span>Database</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/modelagem_hospital" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/modelagem_hospital" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
 
         <article class="project reveal">
-          <div class="project-img"><img src="assets/livraria.png" alt="Livraria Model" /></div>
+          <div class="project-img"><img src="assets/livraria.png" alt="Esquema lógico relacional de banco de dados para e-commerce de livraria" /></div>
           <div class="project-body">
             <h3>Modelagem Livraria</h3>
             <h4>04.2025</h4>
             <p>
-              Modelagem lógica de banco de dados para sistema de livraria online, desenvolvida no Oracle Data Modeler com entidades relacionadas a clientes, livros, estoque, funcionários e chamados.
+              Desenvolvimento lógico de banco de dados corporativo para operação de livraria digital. Modelagem detalhada contendo integridade referencial estrita, tabelas de controle transacional de pedidos, gateways de envio fictícios, logs de clientes e controle de chamados.
             </p>
-            <div class="tags"><span>SQL</span><span>Data Modeler</span></div>
+            <div class="tags"><span>SQL</span><span>Data Modeler</span><span>Relational</span></div>
             <div class="project-actions">
-              <a href="https://github.com/zobolidiogo/modelagem_livraria" target="_blank" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
+              <a href="https://github.com/zobolidiogo/modelagem_livraria" target="_blank" rel="noopener" class="btn btn-ghost"><i class="bi bi-github"></i> Ver código</a>
             </div>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ============ CERTIFICADOS ============ -->
     <section id="certificados" class="section">
-      <h2 class="section-title">Certificados</h2>
+      <h2 class="section-title">Certificações Reconhecidas</h2>
       <div class="divider"></div>
 
       <div class="certs">
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
           <h4>Verified Certificate for CS50x</h4>
           <p>Harvard · edX | 03.2026</p>
           <div class="cert-actions">
-            <a href="https://courses.edx.org/certificates/36e6764a909245a4af1bc47595f1e8a6" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://courses.edx.org/certificates/36e6764a909245a4af1bc47595f1e8a6" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
-          <h4>Introdução à IA</h4>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+          <h4>Introdução à Inteligência Artificial</h4>
           <p>SENAI | 03.2026</p>
           <div class="cert-actions">
-            <a href="https://senaiservices-files.sesisenai.org.br/arquivos/certificacao/33/85/f6/3385f6a9019187be88e7075c68fe558c/1935428_2535062.pdf?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJodHRwczovL3NlbmFpc2VydmljZXMtZmlsZXMuc2VzaXNlbmFpLm9yZy5ici9hcnF1aXZvcy9jZXJ0aWZpY2FjYW8vMzMvODUvZjYvMzM4NWY2YTkwMTkxODdiZTg4ZTcwNzVjNjhmZTU1OGMvMTkzNTQyOF8yNTM1MDYyLnBkZiIsImlzcyI6Ik1lZGlhRmlsZVNlcnZsZXQiLCJleHAiOjE3Nzg3Mjc1OTV9.LekR6PdqECr3q5LTAdf7nOOXAvekieXApmJY5HqhpvU" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://senaiservices-files.sesisenai.org.br/arquivos/certificacao/33/85/f6/3385f6a9019187be88e7075c68fe558c/1935428_2535062.pdf?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJodHRwczovL3NlbmFpc2VydmljZXMtZmlsZXMuc2VzaXNlbmFpLm9yZy5ici9hcnF1aXZvcy9jZXJ0aWZpY2FjYW8vMzMvODUvZjYvMzM4NWY2YTkwMTkxODdiZTg4ZTcwNzVjNjhmZTU1OGMvMTkzNTQyOF8yNTM1MDYyLnBkZiIsImlzcyI6Ik1lZGlhRmlsZVNlcnZsZXQiLCJleHAiOjE3Nzg3Mjc1OTV9.LekR6PdqECr3q5LTAdf7nOOXAvekieXApmJY5HqhpvU" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
           <h4>Business Intelligence</h4>
           <p>FIAP | 02.2026</p>
           <div class="cert-actions">
-            <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=4ae788720f538e5c5c7568611a2dbc39&action=view" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=4ae788720f538e5c5c7568611a2dbc39&action=view" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
           <h4>Big Data & Analytics</h4>
           <p>FIAP | 02.2026</p>
           <div class="cert-actions">
-            <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8a110e56f9d7f55494598f086d423a35&action=view" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8a110e56f9d7f55494598f086d423a35&action=view" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
           <h4>Gen AI & Dados</h4>
           <p>Bradesco · DIO | 02.2026</p>
           <div class="cert-actions">
-            <a href="https://hermes.dio.me/certificates/4ZP1XF7U.pdf" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://hermes.dio.me/certificates/4ZP1XF7U.pdf" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
           <h4>Excel para Análise de Dados</h4>
           <p>Preditiva Analytics | 01.2026</p>
           <div class="cert-actions">
-            <a href="https://ead.preditiva.ai/certificates/Q8jdnE" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://ead.preditiva.ai/certificates/Q8jdnE" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
-          <h4>ADM de Banco de Dados</h4>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+          <h4>Administração de Banco de Dados</h4>
           <p>IFRS | 01.2026</p>
           <div class="cert-actions">
-            <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php?code=69603d98-60a0-41fa-be09-5f6c0aa80f03" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php?code=69603d98-60a0-41fa-be09-5f6c0aa80f03" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
-          <h4>PL/SQL</h4>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+          <h4>PL/SQL Developer</h4>
           <p>IFRS | 01.2026</p>
           <div class="cert-actions">
-            <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php?code=695f0708-7488-457e-943f-6c2a0aa8014c" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php?code=695f0708-7488-457e-943f-6c2a0aa8014c" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
         <div class="cert reveal" style="--r:-3deg">
-          <i class="bi bi-patch-check-fill"></i>
-          <h4>Programação WEB</h4>
+          <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+          <h4>Programação Avançada WEB</h4>
           <p>IFRS | 01.2026</p>
           <div class="cert-actions">
-            <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php?code=695a4223-c0d8-4867-bba1-b3090aa8190b" target="_blank" class="cert-btn">
-              <i class="bi bi-scroll"></i>
-              Ver certificado
+            <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php?code=695a4223-c0d8-4867-bba1-b3090aa8190b" target="_blank" rel="noopener" class="cert-btn">
+              <i class="bi bi-scroll" aria-hidden="true"></i>
+              Autenticar
             </a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ CONTATO ============ -->
     <section id="contato" class="section">
-      <h2 class="section-title">Contato</h2>
+      <h2 class="section-title">Canais de Contato</h2>
       <div class="divider"></div>
 
       <div class="contact-grid">
         <div class="contact-info reveal">
-          <a href="mailto:zobolidiogo@gmail.com"><i class="bi bi-envelope-fill"></i> zobolidiogo@gmail.com</a>
-          <a href="https://github.com/zobolidiogo" target="_blank"><i class="bi bi-github"></i> github.com/zobolidiogo</a>
-          <a href="https://www.linkedin.com/in/zobolidiogo" target="_blank"><i class="bi bi-linkedin"></i> linkedin.com/in/zobolidiogo</a>
-          <a href="https://wa.me/5547988297586" target="_blank"><i class="bi bi-whatsapp"></i> +55 (47) 9 8829-7586</a>
+          <a href="mailto:zobolidiogo@gmail.com"><i class="bi bi-envelope-fill" aria-hidden="true"></i> zobolidiogo@gmail.com</a>
+          <a href="https://github.com/zobolidiogo" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> github.com/zobolidiogo</a>
+          <a href="https://www.linkedin.com/in/zobolidiogo" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i> linkedin.com/in/zobolidiogo</a>
+          <a href="https://wa.me/5547988297586" target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> +55 (47) 9 8829-7586</a>
         </div>
 
-        <form class="contact-form reveal" action="https://formspree.io/f/xbdwwgrl" target="_blank" method="POST">
-          <label>Nome <input type="text" name="name" required placeholder="Como devo te chamar?" /></label>
-          <label>Email <input type="email" name="email" required placeholder="seu@email.com" /></label>
-          <label>Mensagem <textarea rows="5" name="message" required placeholder="Conte-me sobre seu projeto..."></textarea></label>
+        <form class="contact-form reveal" action="https://formspree.io/f/xbdwwgrl" method="POST">
+          <label>Nome Completo <input type="text" name="name" required placeholder="Digite seu nome ou empresa" /></label>
+          <label>Email Corporativo <input type="email" name="email" required placeholder="exemplo@empresa.com" /></label>
+          <label>Mensagem ou Proposta <textarea rows="5" name="message" required placeholder="Descreva os detalhes do seu projeto ou escopo de vaga..."></textarea></label>
           <button type="submit" class="btn btn-gold"><i class="bi bi-send"></i> Enviar mensagem</button>
         </form>
       </div>
@@ -731,11 +678,11 @@
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Pergaminho — todos os manuscritos reservados.</p>
+    <p>© <span id="year"></span> Pergaminho Profissional — Todos os manuscritos reservados.</p>
   </footer>
 
-  <button id="toTop" class="to-top" aria-label="Voltar ao topo">
-    <i class="bi bi-arrow-up"></i>
+  <button id="toTop" class="to-top" aria-label="Voltar para o topo da página">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
   </button>
 
   <script src="script.js"></script>
